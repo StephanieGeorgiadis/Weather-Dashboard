@@ -1,0 +1,33 @@
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+#dashboard {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #6959cd;
+    color: white;
+}
+
+.name-date-display {
+    background-color: #6959cd;
+    color: white;
+}
+
+#searchBtn {
+    margin: 5px 0 5px 0;
+    width: 100%;
+}
+
+#search {
+    width: 100%;
+}
+
+.clearButton {
+    margin: 5px 0 5px 0;
+}
+
+.border {
+    border: 2px solid #000000;
+}

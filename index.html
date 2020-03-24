@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Dashboard</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 class="container" id="dashboard"><a class="nav-link" href="https://github.com/StephanieGeorgiadis">Home</a>Weather Dashboard</h1>
+            <div class="weather-display container border">
+                <div class="row text-center border name-date-display">
+                    <div class="col-sm-6 cityName">
+                        <!-- Area to display the city name -->
+                    </div>
+                    <div class="col-sm-6 cityDate">
+                        <!-- Area to display the date -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="citySearch text-center">
+                            <button id="searchBtn">Search!</button>
+                            <input type="search" id="search">
+                        </div>
+                        <div class="pastSearches">
+                        <!-- Area to display past searches as buttons -->    
+                        </div>
+                        <div class="text-center clearButton">
+                            <button class="btn btn-danger" id="clearBtn">Clear history</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-12 border columncolor" id="day0">
+                                <!-- Area to display the current day's (day 0) forecast -->
+                            </div>
+                        </div>
+                        <div class="row justify-content-between">
+                            <div class="col-sm border columncolor" id="day1">
+                                <!-- Day 1 -->
+                            </div>
+                            <div class="col-sm border columncolor" id="day2">
+                                <!-- Day 2 -->
+                            </div>
+                            <div class="col-sm border columncolor" id="day3">
+                                <!-- Day 3 -->
+                            </div>
+                            <div class="col-sm border columncolor" id="day4">
+                                <!-- Day 4 -->
+                            </div>
+                            <div class="col-sm border columncolor" id="day5">
+                                <!-- Day 5 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javaScript" src="assets/js/jquery-3.4.1.js"></script>
+        <script type="text/javaScript" src="assets/js/moment.js"></script>
+        <script type="text/javaScript" src="assets/js/script.js"></script>
+    </body>
+</html>
